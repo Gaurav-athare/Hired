@@ -9,7 +9,7 @@ const Onboarding = () => {
   const navigate = useNavigate();
 
   const navigateUser = (currRole) => {
-    navigate(currRole === "recruiter" ? "/post-job" : "/jobs");
+    navigate(currRole === "recruiter" ? "/postjob" : "/jobs");
   };
 
   const handleRoleSelection = async (role) => {
